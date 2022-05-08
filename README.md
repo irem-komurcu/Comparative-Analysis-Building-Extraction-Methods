@@ -1,7 +1,4 @@
-<h1>Image Segmentation</h1>
-This repo was created for academic research and test result. Repo will update after academic article online.
-<br>
-<br>
+<h1>Comparative analysis of deep learning based building extraction methods</h1>
 This repo contains weights of Unet++ model with SE-ResNeXt101 encoder trained with our private Istanbul dataset and Inria and Massachusetts datasets seperately. Trainings have been realized using <b>PyTorch</b> and <a href="https://github.com/qubvel/segmentation_models.pytorch"> segmentation models library</a>. We also provide an inference notebook to run prediction on <b> GeoTiff </b> images. This notebook also outputs prediction images as GeoTiff.
 <br><br>
 I am happy to share that our article "Comparative analysis of deep learning based building extraction methods with the new VHR Istanbul dataset" has just been published in the journal of Expert Systems with Applications. My first academic paper is online! (Q1, IF: 6.954)
