@@ -3,20 +3,23 @@ This repo contains weights of Unet++ model with SE-ResNeXt101 encoder trained wi
 
 ![Sample Images Corresponding Building Labels](https://github.com/irem-komurcu/Comparative-Analysis-Building-Extraction-Methods/blob/main/Sample_Images/image/sample-images-corresponding-building-labels.jpg)
 
+<i/>Sample images and corresponding building labels from the Istanbul Dataset. Only building boundaries (in red) are shown for better visibility.</i>
+
 I am happy to share that our article "Comparative analysis of deep learning based building extraction methods with the new VHR Istanbul dataset" has just been published in the journal of Expert Systems with Applications. My first academic paper is online! (Q1, IF: 6.954)
 <br><br>
 More than 60 experiments were conducted by applying state-of-the-art architectures such as <b/> U-Net, Unet++, DeepLabv3+, FPN and PSPNet with different pre-trained encoders and hyperparameters </b>. Our experiments showed that Unet++ architecture using SE-ResNeXt101 encoder pre-trained with ImageNet provides the best results with <b/>93.8% IoU </b> on the Istanbul dataset.
-<br><br>
+<br>
 
 ![Image prediction result with 3 different datasets](https://github.com/irem-komurcu/Comparative-Analysis-Building-Extraction-Methods/blob/main/Sample_Images/image/prediction-result-with-3datasets.jpg)
 
+<i/>Prediction results using network trained with Istanbul (red lines – a, d, g), Inria (blue lines – b, e, h) and Massachhusets (green lines – c, f, i) dataset for sample test images from Istanbul (first row), Inria (middle row) and Massachusetts (last row) dataset.</i>
 
-<b>Our Paper:</b> Comparative analysis of deep learning-based building extraction methods with the new VHR Istanbul dataset:<br>
+<h3/>Our Paper:</h3>
+Comparative analysis of deep learning-based building extraction methods with the new VHR Istanbul dataset:<br>
 <a href="https://authors.elsevier.com/a/1f1XN3PiGTLohZ">This link </a>provides 50 days of free access to the article. Anyone clicking on this link before June 26, 2022, will be taken directly to the final version of your article on ScienceDirect, which they are welcome to read or download.
 <br><br>
 Also, you can reach my <a href="https://iremkomurcu.medium.com/comparative-analysis-building-extraction-methods-4caf9961936b">Medium article </a>about this repo.
 
-<br>
 <h3>Weights Files</h3>
 You can use the following links to download weights files:
 <ul>
